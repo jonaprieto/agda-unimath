@@ -6,11 +6,19 @@ title = "Agda-UniMath"
 
 [build]
 create-missing = true
+
 [preprocessor.index]
 
 [preprocessor.links]
 
 [preprocessor.pagetoc]
+
+[preprocessor.bib]
+bibliography = "./../REF.bib"
+title = "References"
+render-bib = "cited"
+# hb-tpl = "render/my_references.hbs"
+# css = "render/my_style.css"
 
 [preprocessor.katex]
 renderers = ["html"]
